@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.coverImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -2;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: -1;
+}
+
+.content {
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading h1 {
+    font-size: 96px;
+    color: white;
+    line-height: 110px;
+        font-weight: 400;
+}
+
+.heading p {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.5rem;
+    border-left: 1px solid #dbdbdb;
+    padding-left: 1rem;
+}
+
+.navbar ul li {
+    font-size: 20px;
+    cursor: pointer;
+    color: #dbdbdb;
+}
+
+@media screen and (max-width: 1201px) {
+    .content {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .heading h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .heading p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .navbar ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heading h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .heading p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .navbar ul li {
+        font-size: 14px;
+    }
+}
