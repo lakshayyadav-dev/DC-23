@@ -1,0 +1,146 @@
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: -1;
+}
+
+.bgImage {
+    width: 100%;
+    object-fit: cover;
+    height: 1000px;
+    position: absolute;
+    z-index: -2;
+    filter: brightness(0.25);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    overflow-x: clip;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    right: -375px;
+    font-size: 450px;
+    line-height: 0;
+    font-weight: 400;
+}
+
+.content {
+    padding: 5rem;
+    width: 75vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1300px) {
+    .content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .content {
+        height: 850px;
+    }
+
+    .container {
+        height: 850px;
+    }
+
+    .bgImage {
+        height: 850px;
+    }
+
+    .title {
+        font-size: 400px;
+        right: -300px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .content {
+        padding: 3rem 5rem 2rem 2rem;
+    }
+
+    .content {
+        height: 750px;
+    }
+
+    .container {
+        height: 750px;
+    }
+
+    .bgImage {
+        height: 750px;
+    }
+
+    .title {
+        font-size: 350px;
+        right: -275px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .title {
+        position: static;
+        transform: rotate(0deg);
+        font-size: 128px;
+        line-height: calc(128px * 1.5);
+        padding-left: 2rem;
+    }
+
+    .content {
+        width: 100vw;
+        padding-top: 0rem;
+        height: calc(950px - 128px - 3.5rem);
+    }
+
+    .content p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .bgImage {
+        height: 950px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bgImage {
+        height: 1200px;
+    }
+
+    .content {
+        height: calc(1200px - 128px - 3.5rem);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 96px;
+        line-height: calc(96px * 1.5);
+    }
+
+    .bgImage {
+        height: 1500px;
+    }
+
+    .content {
+        height: calc(1500px - 128px - 3.5rem);
+    }
+}
+
