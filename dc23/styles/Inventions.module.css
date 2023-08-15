@@ -1,0 +1,19 @@
+.container {
+    margin-top: 10rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    overflow-x: clip;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 500px;
+    left: -50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.inventionsHolder {
+    margin-top: 30rem;
+}

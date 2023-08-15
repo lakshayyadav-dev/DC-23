@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    overflow-x: auto;
+
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.coverContent {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.coverContentTextHolder {
+    display: flex;
+}
+
+.coverContentText {
+    flex: 1;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coverContentText p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #B8B8B8;
+}
+
+.image2 {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.secondPageContent {
+    background-color: #0E0E0E;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondPageContent div {
+    flex: 1;
+    padding: 2rem 1rem 1rem 2rem;
+    width: 100%;
+
+    font-size: 16px;
+    line-height: 28px;
+    color: #B8B8B8;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .coverContent {
+        width: 100vw;
+    }
+
+    .coverContentTextHolder {
+        flex-direction: column;
+    }
+
+    .coverImage {
+        height: 35%;
+        object-position: top;
+        object-fit: cover;
+        width: 100vw;
+    }
+
+    .coverContentText p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .image2 {
+        width: 100%;
+        height: 75%;
+    }
+
+    .secondPageContent {
+        /*width: 100vw;*/
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .secondPageContent div {
+        font-size: 14px;
+        line-height: 24px;
+        width: 100vw;
+    }
+
+    .secondPageImage {
+        /*height: 25%;*/
+        object-fit: cover;
+        flex: 0.25;
+        /*width: 100vw;*/
+    }
+
+    .endingImage {
+        height: 100vh;
+        object-fit: cover;
+        width: 100vw;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .secondPageContent div {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .coverContentText p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
