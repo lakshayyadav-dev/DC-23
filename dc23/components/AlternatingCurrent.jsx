@@ -15,6 +15,7 @@ const AlternatingCurrent = () => {
 
                 <div className={styles.coverContentTextHolder}>
                     <div className={styles.coverContentText}>
+                        <h1>Alternating Current (AC)</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

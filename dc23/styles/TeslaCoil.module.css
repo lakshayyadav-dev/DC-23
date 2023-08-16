@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.coverContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.coverContentText {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    justify-content: space-evenly;
+}
+
+.coverContentText h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.coverContentText p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+
+    color: #B8B8B8;
+}
+
+.coverImage {
+    object-fit: cover;
+    width: 45%;
+}
+
+.endContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.endContentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.endContentText p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+
+    color: #B8B8B8;
+}
+
+.endImage {
+    object-fit: cover;
+    width: 45%;
+}
+
+@media screen and (max-width: 1200px) {
+    .coverContentText h1 {
+        font-size: 2rem;
+    }
+
+    .coverContentText p, .endContentText p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .coverContentText p, .endContentText p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .coverContent {
+        flex-direction: column;
+    }
+
+    .coverContentText {
+        padding: 1rem;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    .coverContentText h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .coverContentText p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .coverImage {
+        width: 100%;
+    }
+
+    .endContent {
+        flex-direction: column;
+    }
+
+    .endContentText {
+        padding: 1rem;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .endContentText p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .endImage {
+        width: 100%;
+    }
+}
