@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-x: clip;
+
+    margin-top: 10rem;
+    gap: 5rem;
+}
+
+.otherInventionsText {
+    padding: 0 2rem;
+    color: #B8B8B8;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.significance {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+.conclusionImage {
+    width: 100vw;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .otherInventionsText, .significance {
+        font-size: 20px;
+        line-height: 32px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .container {
+        margin-top: 5rem;
+    }
+}

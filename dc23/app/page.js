@@ -5,6 +5,7 @@ import Introduction from "@/app/pages/Introduction";
 import About from "@/app/pages/About";
 import Past from "@/app/pages/Past";
 import Inventions from "@/app/pages/Inventions";
+import Conclusion from "@/app/pages/Conclusion";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <About />
             <Past />
             <Inventions />
+            <Conclusion />
         </>
     );
 }
