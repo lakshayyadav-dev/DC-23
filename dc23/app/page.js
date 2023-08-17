@@ -6,6 +6,7 @@ import About from "@/app/pages/About";
 import Past from "@/app/pages/Past";
 import Inventions from "@/app/pages/Inventions";
 import Conclusion from "@/app/pages/Conclusion";
+import Footer from "@/app/pages/Footer";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Past />
             <Inventions />
             <Conclusion />
+            <Footer />
         </>
     );
 }
