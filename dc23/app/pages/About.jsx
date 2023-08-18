@@ -1,7 +1,10 @@
+"use client";
 import React from "react";
 import styles from "../../styles/About.module.css";
 import Image from "next/image";
 import tesla_background from "../../public/images/tesla_background_upscaled.jpg";
+
+import {motion} from "framer-motion";
 
 const About = () => {
     return (
@@ -11,7 +14,7 @@ const About = () => {
             </div>
 
             <div className={styles.container}>
-                <h1 className={styles.title}>ABOUT</h1>
+                <motion.h1 initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.75, delay: 1}} className={styles.title}>ABOUT</motion.h1>
 
                 <div className={styles.content}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

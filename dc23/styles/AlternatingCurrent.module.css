@@ -57,6 +57,12 @@
     justify-content: space-between;
 }
 
+.secondPageTopText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .secondPageContent div {
     flex: 1;
     padding: 2rem 1rem 1rem 2rem;

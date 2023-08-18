@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "../../styles/Past.module.css";
 import Image from "next/image";
@@ -6,10 +7,12 @@ import tesla_timeline_2 from "../../public/images/tesla_timeline_2.png";
 import tesla_timeline_3 from "../../public/images/tesla_timeline_3.png";
 import tesla_timeline_4 from "../../public/images/tesla_timeline_4.png";
 
+import {motion} from "framer-motion";
+
 const TimelineItem = ({image, reverse = false}) => {
 
     return (
-        <div className={`${styles.timelineItem} ${reverse && styles.timelineItemReverse}`}>
+        <motion.div initial={{opacity: 0}} whileInView={{opacity:1}} viewport={{ once: true }} className={`${styles.timelineItem} ${reverse && styles.timelineItemReverse}`}>
             <Image src={image} alt={"timeline"} className={styles.timelineImage}/>
             <hr />
             {/*<div className={styles.circle} />*/}
@@ -30,7 +33,7 @@ const TimelineItem = ({image, reverse = false}) => {
                 Sed blandit libero volutpat sed cras. Facilisis sed odio morbi quis commodo odio aenean sed. Dui sapien
                 eget mi proin.
             </p>
-        </div>
+        </motion.div>
     );
 };
 
