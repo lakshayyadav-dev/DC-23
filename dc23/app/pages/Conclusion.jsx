@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/Conclusion.module.css";
 import Image from "next/image";
-import conclusion_image from "../../public/images/conlusion_image.png";
+import conclusion_image from "../../public/images/conlusion_image.webp";
 
 const Conclusion = () => {
     return (

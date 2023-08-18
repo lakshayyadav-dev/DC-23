@@ -1,10 +1,11 @@
 "use client"
 import React from "react";
 import styles from "../../styles/Inventions.module.css";
+import { motion } from "framer-motion";
+
 import AlternatingCurrent from "@/components/AlternatingCurrent";
 import TeslaCoil from "@/components/TeslaCoil";
 import MagnifyingTransmitter from "@/components/MagnifyingTransmitter";
-import { motion } from "framer-motion";
 
 const Inventions = () => {
     return (

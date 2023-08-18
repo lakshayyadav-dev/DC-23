@@ -1,24 +1,21 @@
 "use client";
+
 import React from "react";
 import styles from "../../styles/Past.module.css";
 import Image from "next/image";
-import tesla_timeline_1 from "../../public/images/tesla_timeline_1.png";
-import tesla_timeline_2 from "../../public/images/tesla_timeline_2.png";
-import tesla_timeline_3 from "../../public/images/tesla_timeline_3.png";
-import tesla_timeline_4 from "../../public/images/tesla_timeline_4.png";
+import tesla_timeline_1 from "../../public/images/tesla_timeline_1.webp";
+import tesla_timeline_2 from "../../public/images/tesla_timeline_2.webp";
+import tesla_timeline_3 from "../../public/images/tesla_timeline_3.webp";
+import tesla_timeline_4 from "../../public/images/tesla_timeline_4.webp";
 
 import {motion} from "framer-motion";
 
 const TimelineItem = ({image, text}) => {
-
     return (
         <motion.div initial={{opacity: 0}} whileInView={{opacity:1}} viewport={{ once: true }} className={styles.timelineItem}>
-            <Image src={image} alt={"timeline"} className={styles.timelineImage}/>
+            <Image src={image} alt={"tesla timeline image"} className={styles.timelineImage}/>
             <hr />
-            {/*<div className={styles.circle} />*/}
-            <p>
-                {text}
-            </p>
+            <p> {text} </p>
         </motion.div>
     );
 };
@@ -28,7 +25,6 @@ const Past = () => {
         <div className={styles.mainHolder} id="past">
             <h1 className={styles.pastHeading}>HIS PAST</h1>
             <div className={styles.timelineContainer}>
-                {/*<hr className={styles.timelineLine}/>*/}
                 <div className={styles.timelineItemHolder}>
                     <p className={styles.dateHeading}>1856</p>
                     <TimelineItem image={tesla_timeline_1}
@@ -88,7 +84,6 @@ const Past = () => {
                             "On January 7, 1943, the world lost a true luminary as Nikola Tesla passed away."}
                     />
                 </div>
-
                 <p className={styles.dateHeading}>1943</p>
             </div>
         </div>

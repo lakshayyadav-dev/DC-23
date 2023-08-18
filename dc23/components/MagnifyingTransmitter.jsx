@@ -2,14 +2,14 @@ import React from "react";
 import Image from "next/image";
 import styles from "../styles/MagnifyingTransmitter.module.css";
 
-import magnifying_transmitter_1 from "../public/images/magnifying_transmitter_1.png";
-import magnifying_transmitter_2 from "../public/images/magnifying_transmitter_2.png";
+import magnifying_transmitter_1 from "../public/images/magnifying_transmitter_2.webp";
+import magnifying_transmitter_2 from "../public/images/magnifying_transmitter_2.webp";
 
 const MagnifyingTransmitter = () => {
     return (
         <div className={styles.container}>
             <div className={styles.coverContent}>
-                <Image src={magnifying_transmitter_1} alt={"1"} className={styles.coverImage}/>
+                <Image src={magnifying_transmitter_1} alt={"magnifying transmitter image"} className={styles.coverImage}/>
 
                 <div className={styles.textHolder}>
                     <h1>Magnifying Transmitter</h1>
@@ -33,7 +33,7 @@ const MagnifyingTransmitter = () => {
                 </div>
             </div>
 
-            <Image src={magnifying_transmitter_2} alt={"2"} className={styles.endImage}/>
+            <Image src={magnifying_transmitter_2} alt={"magnifying transmitter image"} className={styles.endImage}/>
         </div>
     );
 };

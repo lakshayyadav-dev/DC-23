@@ -32,9 +32,8 @@
     font-size: 96px;
     color: white;
     line-height: 110px;
-        font-weight: 400;
+    font-weight: 400;
 }
-
 .heading p {
     font-size: 24px;
     line-height: 32px;
@@ -50,7 +49,6 @@
     border-left: 2px solid white;
     padding-left: 1rem;
 }
-
 .navbar ul a {
     font-size: 20px;
     cursor: pointer;
@@ -60,7 +58,6 @@
 
     text-decoration: none;
 }
-
 .navbar ul a:hover {
     font-weight: bold;
 }
@@ -77,7 +74,6 @@
         font-size: 48px;
         line-height: 60px;
     }
-
     .heading p {
         font-size: 16px;
         line-height: 24px;
@@ -97,7 +93,6 @@
         font-size: 48px;
         line-height: 48px;
     }
-
     .heading p {
         font-size: 14px;
         line-height: 20px;

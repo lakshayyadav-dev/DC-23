@@ -40,7 +40,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 .content p {
     font-size: 16px;
     line-height: 28px;
@@ -48,17 +47,16 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .content p {
-        font-size: 14px;
-        line-height: 24px;
+    .container {
+        height: 850px;
     }
 
     .content {
         height: 850px;
     }
-
-    .container {
-        height: 850px;
+    .content p {
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .bgImage {
@@ -76,15 +74,7 @@
         padding: 3rem 5rem 2rem 2rem;
     }
 
-    .content {
-        height: 750px;
-    }
-
-    .container {
-        height: 750px;
-    }
-
-    .bgImage {
+    .content, .container, .bgImage {
         height: 750px;
     }
 
@@ -105,10 +95,9 @@
 
     .content {
         width: 100vw;
-        padding-top: 0rem;
+        padding-top: 0;
         height: calc(950px - 128px - 3.5rem);
     }
-
     .content p {
         font-size: 12px;
         line-height: 22px;
@@ -147,7 +136,7 @@
 
     .container {
         padding: 3rem 0;
-        height: 1000px;
+        height: 600px;
     }
 }
 

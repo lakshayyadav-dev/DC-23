@@ -29,13 +29,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 .coverContentText h1 {
     font-size: 48px;
     line-height: 56px;
     font-weight: 400;
 }
-
 .coverContentText p {
     font-size: 16px;
     line-height: 28px;
@@ -47,7 +45,7 @@
     object-fit: cover;
 }
 
-
+/* -----------------------SECOND PAGE-------------------*/
 
 .secondPageContent {
     background-color: #0E0E0E;
@@ -106,7 +104,6 @@
     }
 
     .secondPageContent {
-        /*width: 100vw;*/
         flex-direction: row;
         align-items: center;
     }
@@ -118,10 +115,8 @@
     }
 
     .secondPageImage {
-        /*height: 25%;*/
         object-fit: cover;
         flex: 0.25;
-        /*width: 100vw;*/
     }
 
     .endingImage {
