@@ -125,10 +125,10 @@
 
     .dateHeading {
         font-size: 36px;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
-    .timelineItem p {
+    .timelineItem p{
         font-size: 12px;
         line-height: 24px;
     }
