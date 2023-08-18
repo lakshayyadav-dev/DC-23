@@ -11,7 +11,7 @@ import Footer from "@/app/pages/Footer";
 export default function Home() {
     return (
         <>
-            <Landing/>
+            <Landing />
             <Introduction />
             <About />
             <Past />
