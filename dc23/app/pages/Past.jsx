@@ -25,7 +25,7 @@ const TimelineItem = ({image, text}) => {
 
 const Past = () => {
     return (
-        <div className={styles.mainHolder}>
+        <div className={styles.mainHolder} id="past">
             <h1 className={styles.pastHeading}>HIS PAST</h1>
             <div className={styles.timelineContainer}>
                 {/*<hr className={styles.timelineLine}/>*/}

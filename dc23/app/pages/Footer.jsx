@@ -4,10 +4,10 @@ import styles from "../../styles/Footer.module.css";
 const Footer = () => {
     return (
         <nav className={styles.navbar}>
-            <a>home</a>
-            <a>about</a>
-            <a>inventions</a>
-            <a>significance</a>
+            <a href={"#home"}>home</a>
+            <a href={"#about"}>about</a>
+            <a href={"#inventions"}>inventions</a>
+            <a href={"#conclusion"}>significance</a>
         </nav>
 
     );

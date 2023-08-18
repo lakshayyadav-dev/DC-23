@@ -8,17 +8,17 @@ import { motion } from "framer-motion";
 
 const Landing = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id={"home"}>
             <div className={styles.overlay}/>
             <Image src={coverImage} alt={"coverImage"} className={styles.coverImage}/>
 
             <div className={styles.content}>
                 <motion.nav initial={{x:-500}} animate={{x:0}} transition={{ duration: 0.75}} className={styles.navbar}>
                     <ul>
-                        <li>about</li>
-                        <li>past</li>
-                        <li>inventions</li>
-                        <li>significance</li>
+                        <li><a href={"#about"}>about</a></li>
+                        <li><a href={"#past"}>past</a></li>
+                        <li><a href={"#inventions"}>inventions</a></li>
+                        <li><a href={"#conclusion"}>significance</a></li>
                     </ul>
                 </motion.nav>
 

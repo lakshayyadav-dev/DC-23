@@ -51,15 +51,17 @@
     padding-left: 1rem;
 }
 
-.navbar ul li {
+.navbar ul a {
     font-size: 20px;
     cursor: pointer;
     color: white;
     font-weight: 400;
     transition: all 0.2s ease;
+
+    text-decoration: none;
 }
 
-.navbar ul li:hover {
+.navbar ul a:hover {
     font-weight: bold;
 }
 

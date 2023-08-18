@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <div>
+        <div id={"about"}>
             <div className={styles.overlay}>
                 <Image src={tesla_background} alt="tesla_background" className={styles.bgImage}/>
             </div>

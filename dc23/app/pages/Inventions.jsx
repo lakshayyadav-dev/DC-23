@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Inventions = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="inventions">
             <motion.h1 initial={{y:500}} whileInView={{y:0}} viewport={{once: true}} transition={{duration: 0.25, delay:0.5}} className={styles.heading}>INVENTIONS</motion.h1>
 
             <div className={styles.inventionsHolder}>

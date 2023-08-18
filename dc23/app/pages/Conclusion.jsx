@@ -5,7 +5,7 @@ import conclusion_image from "../../public/images/conlusion_image.png";
 
 const Conclusion = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="conclusion">
             <p className={styles.otherInventionsText}>
                 His other inventions include: Induction Motor, Wireless Communication and Radio, Remote Control and
                 Robotics. X-Rays.

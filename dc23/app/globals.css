@@ -19,3 +19,8 @@ body {
     color: white;
     background-color: #0E0E0E !important;
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-bottom: 1000px;
+}
