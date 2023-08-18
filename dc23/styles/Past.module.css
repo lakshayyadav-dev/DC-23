@@ -97,7 +97,7 @@
         font-size: 200px;
     }
 
-    .timelineItem p {
+    .timelineText {
         font-size: 14px;
         line-height: 26px;
     }
@@ -128,7 +128,7 @@
         margin-top: 2rem;
     }
 
-    .timelineText{
+    .timelineText {
         font-size: 12px;
         line-height: 24px;
     }
