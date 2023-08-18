@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Introduction = () => {
     return (
         <div className={styles.container}>
-            <Image src={tesla_face} alt={"tesla face"} className={styles.teslaImage}/>
+            <Image src={tesla_face} alt={"tesla face"} className={styles.teslaImage} priority/>
 
             <div className={styles.textContainer}>
                 <motion.p

@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div id={"about"}>
             <div className={styles.overlay}>
-                <Image src={tesla_background} alt="tesla_background" className={styles.bgImage}/>
+                <Image src={tesla_background} alt="tesla_background" className={styles.bgImage} priority/>
             </div>
 
             <div className={styles.container}>
