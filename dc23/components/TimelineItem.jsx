@@ -5,11 +5,11 @@ import Image from "next/image";
 
 const TimelineItem = ({image, text}) => {
     return (
-        <div initial={{opacity: 0}} whileInView={{opacity:1}} viewport={{ once: true }} className={styles.timelineItem}>
+        <motion.div initial={{opacity: 0}} whileInView={{opacity:1}} viewport={{ once: true }} className={styles.timelineItem}>
             <Image src={image} alt={"tesla timeline image"} className={styles.timelineImage}/>
             <hr />
             {text}
-        </div>
+        </motion.div>
     );
 };
 
