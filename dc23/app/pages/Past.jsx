@@ -9,16 +9,7 @@ import tesla_timeline_3 from "../../public/images/tesla_timeline_3.webp";
 import tesla_timeline_4 from "../../public/images/tesla_timeline_4.webp";
 
 import {motion} from "framer-motion";
-
-const TimelineItem = ({image, text}) => {
-    return (
-        <motion.div initial={{opacity: 0}} whileInView={{opacity:1}} viewport={{ once: true }} className={styles.timelineItem}>
-            <Image src={image} alt={"tesla timeline image"} className={styles.timelineImage}/>
-            <hr />
-            <p className={styles.timelineText}> {text} </p>
-        </motion.div>
-    );
-};
+import TimelineItem from "@/components/TimelineItem";
 
 const Past = () => {
     return (
@@ -27,7 +18,6 @@ const Past = () => {
             <div className={styles.timelineContainer}>
                 <div className={styles.timelineItemHolder}>
                     <p className={styles.dateHeading}>1856</p>
-                    <p className={styles.timelineText}>lorem ipsufldasj fjdaskl jfdklasjl</p>
                     <TimelineItem image={tesla_timeline_1}
                         text={"Nikola Tesla's childhood was a window into the brilliant mind that would go on to shape the course of scientific history. Born in 1856 in the quaint village of Smiljan, Croatia, Tesla exhibited a curious and imaginative disposition from the start. Even as a young child, he stood out among his peers for his insatiable thirst for knowledge and his unique way of seeing the world.\n" +
                             "\n" +

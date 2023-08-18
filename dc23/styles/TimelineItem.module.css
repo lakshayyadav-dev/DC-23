@@ -1,0 +1,58 @@
+.timelineItem {
+    flex: 0 0 auto;
+    width: 1000px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    gap: 5rem;
+}
+
+.timelineImage {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.timelineText {
+    font-size: 16px;
+    line-height: 30px;
+    color: #B8B8B8;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .timelineText {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .timelineImage {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timelineImage {
+        width: 150px;
+        height: 250px;
+    }
+
+    .timelineText {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .timelineImage {
+        width: 150px;
+        height: 250px;
+    }
+
+}
