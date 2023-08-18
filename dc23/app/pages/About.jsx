@@ -64,14 +64,9 @@ const About = () => {
                         scientific achievements.
 
                         Today, Tesla&apos;s legacy is experiencing a resurgence of appreciation. His imaginative ideas have
-                        found renewed relevance in the fields of renewable energy, wireless technology, and beyond. As
-                        we stand on the cusp of an electrifying future, the legacy of Nikola Tesla serves as a guiding
+                        found renewed relevance in the fields of renewable energy, wireless technology, and beyond. The legacy of Nikola Tesla serves as a guiding
                         light, encouraging us to explore the frontiers of innovation and push the boundaries of what is
                         possible.
-
-                        In remembering Nikola Tesla, we honor a visionary who dared to dream and dared to challenge
-                        convention, leaving behind a legacy that continues to spark the flames of curiosity and shape
-                        the world we inhabit.
                     </p>
                 </div>
             </div>
