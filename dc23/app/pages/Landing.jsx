@@ -1,10 +1,7 @@
-"use client"
 import React from "react";
 import Image from "next/image";
 import coverImage from "../../public/images/cover-image (1).webp";
 import styles from "../../styles/Landing.module.css";
-
-import { motion } from "framer-motion";
 
 const Landing = () => {
     return (
@@ -13,7 +10,7 @@ const Landing = () => {
             <Image src={coverImage} alt={"coverImage"} className={styles.coverImage} priority />
 
             <div className={styles.content}>
-                <nav initial={{x:-500}} animate={{x:0}} transition={{ duration: 0.75}} className={styles.navbar}>
+                <nav className={styles.navbar}>
                     <ul>
                         <li><a href={"#about"}>about</a></li>
                         <li><a href={"#past"}>past</a></li>
@@ -22,7 +19,7 @@ const Landing = () => {
                     </ul>
                 </nav>
 
-                <div initial={{x:-750}} animate={{x:0}} transition={{ duration: 0.75 }} className={styles.heading}>
+                <div className={styles.heading}>
                     <h1>NIKOLA TESLA</h1>
                     <p>THE MAN WHO PREDICTED THE FUTURE</p>
                 </div>
