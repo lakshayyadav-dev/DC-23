@@ -11,7 +11,7 @@ const AlternatingCurrent = () => {
     return (
         <div className={styles.container}>
             <div className={styles.coverContent}>
-                <Image src={alternating_current_1} alt={"al"} className={styles.coverImage}/>
+                <Image src={alternating_current_1} alt={"al"} className={styles.coverImage} priority/>
 
                 <div className={styles.coverContentTextHolder}>
                     <div className={styles.coverContentText}>
@@ -35,7 +35,7 @@ const AlternatingCurrent = () => {
                         Scroll horizontally for more.
                     </div>
 
-                    <Image src={alternating_current_2} alt={"2"} className={styles.image2}/>
+                    <Image src={alternating_current_2} alt={"2"} className={styles.image2} priority/>
                 </div>
             </div>
 

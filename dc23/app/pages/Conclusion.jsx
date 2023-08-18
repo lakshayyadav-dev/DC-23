@@ -20,7 +20,7 @@ const Conclusion = () => {
                 </p>
             </div>
 
-            <Image src={conclusion_image} alt={"tesla and his peers"} className={styles.conclusionImage}/>
+            <Image src={conclusion_image} alt={"tesla and his peers"} className={styles.conclusionImage} priority/>
         </div>
     );
 };

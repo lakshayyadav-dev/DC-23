@@ -10,7 +10,7 @@ const TeslaCoil = () => {
     return (
         <div className={styles.container}>
             <div className={styles.coverContent}>
-                <Image src={tesla_coil_1} alt={"tesla coil image"} className={styles.coverImage}/>
+                <Image src={tesla_coil_1} alt={"tesla coil image"} className={styles.coverImage} priority/>
                 <div className={styles.coverContentText}>
                     <h1>Tesla Coil</h1>
                     <p>
@@ -67,7 +67,7 @@ const TeslaCoil = () => {
                 </div>
             </div>
 
-            <Image src={tesla_coil_2} alt={"tesla coil image"}/>
+            <Image src={tesla_coil_2} alt={"tesla coil image"} priority/>
 
             <div className={styles.endContent}>
                 <div className={styles.endContentText}>

@@ -9,7 +9,7 @@ const MagnifyingTransmitter = () => {
     return (
         <div className={styles.container}>
             <div className={styles.coverContent}>
-                <Image src={magnifying_transmitter_1} alt={"magnifying transmitter image"} className={styles.coverImage}/>
+                <Image src={magnifying_transmitter_1} alt={"magnifying transmitter image"} className={styles.coverImage} priority/>
 
                 <div className={styles.textHolder}>
                     <h1>Magnifying Transmitter</h1>
