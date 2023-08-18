@@ -15,7 +15,7 @@ const TimelineItem = ({image, text}) => {
         <motion.div initial={{opacity: 0}} whileInView={{opacity:1}} viewport={{ once: true }} className={styles.timelineItem}>
             <Image src={image} alt={"tesla timeline image"} className={styles.timelineImage}/>
             <hr />
-            <p> lorem </p>
+            <p className={styles.timelineText}> {text} </p>
         </motion.div>
     );
 };
