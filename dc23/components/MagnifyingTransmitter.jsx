@@ -30,6 +30,7 @@ const MagnifyingTransmitter = () => {
                         as a testament to Tesla&apos;s pioneering spirit, pushing the boundaries of what was possible and
                         envisioning a future where electricity could be harnessed for the betterment of humanity.
                     </p>
+                    Scroll Horizontally for more.
                 </div>
             </div>
 

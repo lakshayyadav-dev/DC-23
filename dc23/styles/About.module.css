@@ -9,7 +9,7 @@
 .bgImage {
     width: 100%;
     object-fit: cover;
-    height: 1000px;
+    height: 1050px;
     position: absolute;
     z-index: -2;
     filter: brightness(0.25);

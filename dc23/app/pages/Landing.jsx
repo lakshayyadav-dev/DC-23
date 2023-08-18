@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import coverImage from "../../public/images/cover-image.webp";
+import coverImage from "../../public/images/cover-image (1).webp";
 import styles from "../../styles/Landing.module.css";
 
 import { motion } from "framer-motion";
@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 const Landing = () => {
     return (
         <div className={styles.container} id={"home"}>
-            <div className={styles.overlay}/>
-            <Image src={coverImage} alt={"coverImage"} className={styles.coverImage}/>
+            <div className={styles.overlay} />
+            <Image src={coverImage} alt={"coverImage"} className={styles.coverImage} priority />
 
             <div className={styles.content}>
                 <motion.nav initial={{x:-500}} animate={{x:0}} transition={{ duration: 0.75}} className={styles.navbar}>
