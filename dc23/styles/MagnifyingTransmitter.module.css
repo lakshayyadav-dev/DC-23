@@ -51,6 +51,10 @@
         flex-direction: column;
     }
 
+    .horizontalText {
+        display: none;
+    }
+
     .endImage {
         width: 100vw;
     }

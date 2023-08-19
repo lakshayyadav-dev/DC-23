@@ -32,7 +32,7 @@ const AlternatingCurrent = () => {
                             electricity to be easily converted to different voltages and transmitted over long distances
                             with minimal energy loss.
                         </p>
-                        Scroll horizontally for more.
+                        <p>Scroll horizontally for more.</p>
                     </div>
 
                     <Image src={alternating_current_2} alt={"2"} className={styles.image2} priority/>
