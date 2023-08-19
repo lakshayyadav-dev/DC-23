@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "../styles/MagnifyingTransmitter.module.css";
 
-import magnifying_transmitter_1 from "../public/images/magnifying_transmitter_2.webp";
+import magnifying_transmitter_1 from "../public/images/magnifying_transmitter_1.webp";
 import magnifying_transmitter_2 from "../public/images/magnifying_transmitter_2.webp";
 
 const MagnifyingTransmitter = () => {
