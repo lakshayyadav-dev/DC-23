@@ -34,6 +34,7 @@
 .coverImage {
     object-fit: cover;
     width: 45%;
+    height: 100%;
 }
 
 .endContent {
@@ -60,6 +61,7 @@
 .endImage {
     object-fit: cover;
     width: 45%;
+    height: 100%;
 }
 
 @media screen and (max-width: 1200px) {
