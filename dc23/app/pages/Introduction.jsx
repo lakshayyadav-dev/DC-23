@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import tesla_face from "../../public/images/tesla_face_upscaled - Copy.jpg";
+import tesla_face from "../../public/images/tesla_face_upscaled - Copy.webp";
 import styles from "../../styles/Introduction.module.css";
 import { motion } from "framer-motion";
 

@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "../../styles/Past.module.css";
 import Image from "next/image";
-import tesla_timeline_1 from "../../public/images/tesla_timeline_1.webp";
+import tesla_timeline_1 from "../../public/images/tesla_timeline_1 (1).webp";
 import tesla_timeline_2 from "../../public/images/tesla_timeline_2.webp";
 import tesla_timeline_3 from "../../public/images/tesla_timeline_3.webp";
 import tesla_timeline_4 from "../../public/images/tesla_timeline_4.webp";
